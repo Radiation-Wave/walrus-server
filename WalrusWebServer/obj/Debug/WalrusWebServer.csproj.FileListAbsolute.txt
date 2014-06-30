@@ -1,0 +1,5 @@
+c:\users\dylan\documents\visual studio 2013\Projects\WalrusWebServer\WalrusWebServer\bin\Debug\WalrusWebServer.dll
+c:\users\dylan\documents\visual studio 2013\Projects\WalrusWebServer\WalrusWebServer\bin\Debug\WalrusWebServer.pdb
+c:\users\dylan\documents\visual studio 2013\Projects\WalrusWebServer\WalrusWebServer\obj\Debug\WalrusWebServer.csprojResolveAssemblyReference.cache
+c:\users\dylan\documents\visual studio 2013\Projects\WalrusWebServer\WalrusWebServer\obj\Debug\WalrusWebServer.dll
+c:\users\dylan\documents\visual studio 2013\Projects\WalrusWebServer\WalrusWebServer\obj\Debug\WalrusWebServer.pdb
