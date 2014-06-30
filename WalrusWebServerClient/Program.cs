@@ -14,12 +14,18 @@ namespace WalrusWebServerClient
         static void Main(string[] args)
         {
             LoadMimeTypes();
+
             ServerConfiguration configuration = new ServerConfiguration();
             Server server = new Server(configuration);
 
-            
-            IModule fileStore = new LocalFileModule(@"C:\Users\Dylan\Documents\EVE\capture");
+            // Direct requests to local files
+            string personal = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+            IModule fileStore = new LocalFileModule(string.Format("{0}\\walrus", personal));
+
+            // Cache files into memory and pre-compress
             IModule cache = new CompressedCache(fileStore);
+
+            // Restrict rate to 64 Kbytes
             IModule limiter = new StreamLimiter(cache, 1024 * 64);
 
             server.Modules.Add(MimeTypes.Get("png"), limiter);

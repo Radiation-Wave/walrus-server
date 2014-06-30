@@ -9,3 +9,8 @@ c:\users\dylan\documents\visual studio 2013\Projects\WalrusWebServer\WalrusWebSe
 C:\Users\Dylan\Documents\walrus-server\WalrusWebServerClient\bin\Debug\WalrusWebServerClient.exe.config
 C:\Users\Dylan\Documents\walrus-server\WalrusWebServerClient\obj\Debug\WalrusWebServerClient.exe
 C:\Users\Dylan\Documents\walrus-server\WalrusWebServerClient\obj\Debug\WalrusWebServerClient.pdb
+C:\Users\Dylan\Documents\walrus-server\WalrusWebServerClient\obj\Debug\WalrusWebServerClient.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\walrus-server\WalrusWebServerClient\bin\Debug\WalrusWebServerClient.exe
+C:\Users\Dylan\Documents\walrus-server\WalrusWebServerClient\bin\Debug\WalrusWebServerClient.pdb
+C:\Users\Dylan\Documents\walrus-server\WalrusWebServerClient\bin\Debug\WalrusWebServer.dll
+C:\Users\Dylan\Documents\walrus-server\WalrusWebServerClient\bin\Debug\WalrusWebServer.pdb
