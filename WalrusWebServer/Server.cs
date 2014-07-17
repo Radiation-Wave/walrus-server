@@ -18,10 +18,10 @@ namespace WalrusWebServer
         public ServerConfiguration Configuration { get; private set; }
         public ServerModules Modules { get; private set; }
 
-        public Server(ServerConfiguration configuration)
+        public Server(ServerConfiguration configuration, IModule defaultModule)
         {
             Configuration = configuration;
-            Modules = new ServerModules();
+			Modules = new ServerModules(defaultModule);
 
             _listener = new HttpListener();
             _listener.Prefixes.Add(configuration.Prefix);
@@ -38,31 +38,34 @@ namespace WalrusWebServer
             {
                 requestContext = _listener.GetContext();
 
+				// Prepare the content mime types then use to locate a module.
                 string contentType = GetContentType(requestContext.Request.Url);
                 requestContext.Response.ContentType = contentType;
 
                 IModule module = Modules.Get(contentType);
-                if (module != null)
-                {
-                    Task task = new Task(() => GenerateResponse(module, requestContext));
-                    task.Start();
-                    //module.Process(requestContext.Response.OutputStream, requestContext);
-                }
-                else
-                {
-                    // Load the default module.
-                }
+				if (module != null) {
+					// Spool-up a mico-thread to handle the request.
+					Task task = new Task(() => GenerateResponse(module, requestContext));
+					task.Start();
+				} else {
+					// We don't know how to handle the request.
+					requestContext.Response.StatusCode = 404;
+					requestContext.Response.Close();
+				}
             }
         }
 
         private void GenerateResponse(IModule module, HttpListenerContext context)
         {
+			// Process the request then close the stream. All logic is delegated
+			// to the supplied IModule implementer.
             module.Process(context.Response.OutputStream, context);
             context.Response.Close();
         }
 
         private string GetContentType(Uri url)
         {
+			// Crudely extract the file extension used in the request.
             int position = url.AbsolutePath.LastIndexOf('.') + 1;
             if (position > 0)
             {

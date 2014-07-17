@@ -3,3 +3,8 @@ c:\users\dylan\documents\visual studio 2013\Projects\WalrusWebServer\WalrusWebSe
 c:\users\dylan\documents\visual studio 2013\Projects\WalrusWebServer\WalrusWebServer\obj\Debug\WalrusWebServer.csprojResolveAssemblyReference.cache
 c:\users\dylan\documents\visual studio 2013\Projects\WalrusWebServer\WalrusWebServer\obj\Debug\WalrusWebServer.dll
 c:\users\dylan\documents\visual studio 2013\Projects\WalrusWebServer\WalrusWebServer\obj\Debug\WalrusWebServer.pdb
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServer\bin\Debug\WalrusWebServer.dll
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServer\bin\Debug\WalrusWebServer.pdb
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServer\obj\Debug\WalrusWebServer.csprojResolveAssemblyReference.cache
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServer\obj\Debug\WalrusWebServer.dll
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServer\obj\Debug\WalrusWebServer.pdb

@@ -1,0 +1,7 @@
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\bin\Release\WalrusWebServerClient.exe
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\bin\Release\WalrusWebServerClient.pdb
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\bin\Release\WalrusWebServer.dll
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\bin\Release\WalrusWebServer.pdb
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\obj\Release\WalrusWebServerClient.csprojResolveAssemblyReference.cache
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\obj\Release\WalrusWebServerClient.exe
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\obj\Release\WalrusWebServerClient.pdb

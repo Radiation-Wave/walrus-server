@@ -14,3 +14,10 @@ C:\Users\Dylan\Documents\walrus-server\WalrusWebServerClient\bin\Debug\WalrusWeb
 C:\Users\Dylan\Documents\walrus-server\WalrusWebServerClient\bin\Debug\WalrusWebServerClient.pdb
 C:\Users\Dylan\Documents\walrus-server\WalrusWebServerClient\bin\Debug\WalrusWebServer.dll
 C:\Users\Dylan\Documents\walrus-server\WalrusWebServerClient\bin\Debug\WalrusWebServer.pdb
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\bin\Debug\WalrusWebServerClient.exe
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\bin\Debug\WalrusWebServerClient.pdb
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\bin\Debug\WalrusWebServer.dll
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\bin\Debug\WalrusWebServer.pdb
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\obj\Debug\WalrusWebServerClient.csprojResolveAssemblyReference.cache
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\obj\Debug\WalrusWebServerClient.exe
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServerClient\obj\Debug\WalrusWebServerClient.pdb

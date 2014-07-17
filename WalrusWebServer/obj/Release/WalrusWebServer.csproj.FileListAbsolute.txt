@@ -1,0 +1,4 @@
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServer\bin\Release\WalrusWebServer.dll
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServer\bin\Release\WalrusWebServer.pdb
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServer\obj\Release\WalrusWebServer.dll
+C:\Users\dwg\Desktop\walrus-server\WalrusWebServer\obj\Release\WalrusWebServer.pdb

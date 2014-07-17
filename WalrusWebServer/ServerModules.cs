@@ -10,10 +10,12 @@ namespace WalrusWebServer
 {
     public class ServerModules
     {
+		private IModule _defaultModule;
         private Dictionary<string, IModule> _directory;
 
-        public ServerModules()
+        public ServerModules(IModule defaultModule)
         {
+			_defaultModule = defaultModule;
             _directory = new Dictionary<string, IModule>();
         }
 
@@ -23,7 +25,7 @@ namespace WalrusWebServer
             {
                 return _directory[signature];
             }
-            return null;
+			return _defaultModule;
         }
 
         public bool Add(string signature, IModule module)
